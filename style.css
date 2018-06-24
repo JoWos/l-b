@@ -1,31 +1,28 @@
 body {
-    margin: 29px;
-    background-image: url("https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
-    background-attachment: fixed;
-    color: #c4c0c0;
-    text-align: center;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 22px; }
+  margin: 29px;
+  background-image: url("https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #c4c0c0;
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 22px; }
 
-    .container {
-        width: 30%;
-        padding: 30px;
-        margin: 10% 0 0 50%;
-    }
+.container {
+  width: 30%;
+  padding: 30px;
+  margin: 10% 0 0 50%; }
+  .container h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+    position: relative; }
+    .container h1::after {
+      content: "";
+      position: absolute;
+      background-color: #9fabad;
+      width: 60%;
+      height: 1px;
+      left: 90px;
+      top: 35px; }
 
-    h1 {
-        font-size: 32px;
-        letter-spacing: 3px;
-        position: relative;
-    }
-
-    h1::after {
-        content: "";
-        position: absolute;
-        background-color: rgb(159, 171, 173);
-        width: 60%;
-        height: 1px;
-        left: 90px;
-        top: 35px;
-    }
+/*# sourceMappingURL=style.css.map */
